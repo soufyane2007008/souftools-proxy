@@ -1,0 +1,16 @@
+{
+  "name": "souftools-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for Souftools Hub",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "firebase-admin": "^11.11.0",
+    "cors": "^2.8.5",
+    "user-agents": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
